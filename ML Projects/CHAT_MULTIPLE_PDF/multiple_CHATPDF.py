@@ -2,11 +2,11 @@
 import os
 import streamlit as st
 
-from constant import GOOGLE_API_KEY
-from constant import kamalesh_oepnai
+from constant import #API KEY
+from constant import #API KEY
 
-os.environ['OPENAI_API_KEY'] = kamalesh_oepnai
-os.environ['GOOGLE_API_KEY'] = GOOGLE_API_KEY
+os.environ['OPENAI_API_KEY'] = 
+os.environ['GOOGLE_API_KEY'] = 
 
 from PyPDF2 import PdfReader
 from langchain.text_splitter import CharacterTextSplitter
